@@ -56,7 +56,7 @@ class App extends Component {
             id: item.id,
             name: item.name,
             tagline: item.tagline,
-            firstBrewed: item.first_brewed,
+            // firstBrewed: item.first_brewed,
             desc: item.description,
             imageURL: item.image_url,
             isFavourite: this.checkIfFavourite(item.id)
@@ -100,7 +100,7 @@ class App extends Component {
             id: item.id,
             name: item.name,
             tagline: item.tagline,
-            firstBrewed: item.first_brewed,
+            // firstBrewed: item.first_brewed,
             desc: item.description,
             imageURL: item.image_url,
             isFavourite: this.checkIfFavourite(item.id)

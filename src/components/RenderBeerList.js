@@ -5,7 +5,7 @@ const RenderBeerList = props => (
     <div className="card" key={beer.id}>
       <div className="card__col">
         <img className="card__img" src={beer.imageURL} alt={beer.name} />
-        <p className="card__text card__text--sm">First brewed: {beer.firstBrewed}</p>
+        {/* <p className="card__text card__text--sm">First brewed: {beer.firstBrewed}</p> */}
       </div>
       <div className="card__content">
         <h2 className="card__title">{beer.name}</h2>

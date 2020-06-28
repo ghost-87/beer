@@ -22,7 +22,7 @@ class Login extends Component{
             // if(u.a===null){
             //     alert("Your email is not registered. Please Register");
             // } else{
-            //     // alert(u.code);
+            //     // alert(u.p);
             // }
         }).catch((err)=>{
             console.log(err);
