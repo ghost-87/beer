@@ -1,0 +1,16 @@
+.loginHeader{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.email{
+    padding:10px;
+}
+
+.password{
+    padding:10px;
+}
+
+.button{
+    padding:10px;
+}
